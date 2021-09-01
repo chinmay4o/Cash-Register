@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <!-- ========= bootstrap cdn======== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <title>cash register</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand h2" >Cash register</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Twitter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Github</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="parent-container">
+      <section class="home-container">
+        <!-- ======== box1 ========= -->
+        <div class="box1">
+          <img src="./images/sec.svg" alt="" />
+        </div>
+        <!-- ======== box2 ========= -->
+        <div class="box2">
+          <!-- ======== content ======== -->
+          <div class="content">
+            <!-- ======= form-group ========= -->
+
+            <div class="form-group">
+              <label for="cash">Cash amount</label>
+              <input
+                type="number"
+                class="bill-input"
+                id="cash"
+                placeholder="Enter cash amount"
+              />
+              <!-- <button class="btn">change</button> -->
+            </div>
+
+            <!-- ======= form-group ========= -->
+            <div class="form-group">
+              <label for="bill">Bill amount</label>
+              <input
+                type="number"
+                class="bill-input"
+                id="bill"
+                placeholder="Enter bill amount"
+              />
+              <button class="btn check-btn">Change</button>
+            </div>
+
+            <!-- ============ change cash offered ============= -->
+            <table class="table table-striped table-bordered table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Notes</th>
+                  <th scope="col">No. of Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>2000</td>
+                  <td class="no-notes"></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>500</td>
+                  <td class="no-notes"></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>100</td>
+                  <td class="no-notes"></td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>20</td>
+                  <td class="no-notes"></td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>10</td>
+                  <td class="no-notes"></td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>5</td>
+                  <td class="no-notes"></td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>1</td>
+                  <td class="no-notes"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ js ============== -->
+    <!-- ============ js ============== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/myjquery.js"></script>
+</html>
