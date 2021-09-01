@@ -121,6 +121,21 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    min-height: 70px;
+    padding: 0 40px 0 30px;
+    background-color: #fff !important;
+    position: fixed !important;
+    top: 0;
+    border-bottom: 1px solid grey;
+  }
+  .navbar .h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Ubuntu;
+    color: #0A2FFF !important;
+  }
   .parent-container {
     width: 100%;
     min-height: calc(100vh - 70px);
