@@ -120,6 +120,10 @@
           box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.7);
 }
 
+.parent-container .home-container .box2 .content .check {
+  width: 90%;
+}
+
 @media only screen and (max-width: 768px) {
   .navbar {
     width: 100%;
@@ -131,10 +135,13 @@
     border-bottom: 1px solid grey;
   }
   .navbar .h2 {
-    font-size: 30px;
+    font-size: 37px;
     font-weight: bold;
     font-family: Ubuntu;
     color: #0A2FFF !important;
+  }
+  .navbar .nav-item a {
+    font-size: 1.2rem;
   }
   .parent-container {
     width: 100%;
