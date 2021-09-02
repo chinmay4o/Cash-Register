@@ -21,9 +21,9 @@ checkBtn.click(function () {
     alert("Please, Enter Amount!");
   } else if (cashAmt === "") {
     alert("Please, Enter Cash Amount!");
-  } else if (billAmt > cashAmt) {
+  } else if (+billAmt > +cashAmt) {
     alert("Insufficient cash, please enter adequate cash amount!");
-  } else if (cashAmt === billAmt) {
+  } else if (+cashAmt === +billAmt) {
     alert("No Change!");
   } else {
     for (let i = 0; i < notes.length; i++) {
