@@ -28,7 +28,7 @@
 }
 
 .parent-container {
-  width: 100%;
+  width: 100vw;
   min-height: calc(100vh - 70px);
   background-color: #ffff;
   margin-top: 70px;
@@ -144,7 +144,7 @@
     font-size: 1.2rem;
   }
   .parent-container {
-    width: 100%;
+    width: 100vw;
     min-height: calc(100vh - 70px);
     background-color: #ffff;
     margin-top: 70px;
